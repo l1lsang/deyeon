@@ -681,7 +681,7 @@ button:hover {
   }
 }
 .card {
-  transform: translateY(-200px);
+  transform: translateY(-180px);
 }
 @media (max-width: 768px) {
   .card {
