@@ -92,7 +92,7 @@ background-color: #4078ff;
   background: #f4f7fb;
   padding: 8px 12px;
   border-radius: 16px;
-  margin-top: -300px;
+  margin-top: -200px;
  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
   transition:
     transform 0.25s ease,
@@ -679,5 +679,13 @@ button:hover {
   .foot p {
     font-size: 13px;
     margin-bottom: 12px;
+  }
+}
+.cardContainer {
+  transform: translateY(-80px);
+}
+@media (max-width: 768px) {
+  .cardContainer {
+    transform: translateY(0px);
   }
 }
