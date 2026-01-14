@@ -623,6 +623,9 @@ button:hover {
     font-size: 14px;
     border-radius: 12px;
   }
+  .sec1 h1{
+    font-size: 30px;
+  }
 
   .sec5 .f {
     flex-direction: column;
