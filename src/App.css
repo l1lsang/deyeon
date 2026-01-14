@@ -681,11 +681,11 @@ button:hover {
     margin-bottom: 12px;
   }
 }
-.cardContainer {
+.card {
   transform: translateY(-200px);
 }
 @media (max-width: 768px) {
-  .cardContainer {
+  .card {
     transform: translateY(0px);
   }
 }
