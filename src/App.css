@@ -100,7 +100,6 @@ background-color: #4078ff;
 
 }
 .card:hover {
-  transform: translateY(-6px);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
 }
 .card h2 {
