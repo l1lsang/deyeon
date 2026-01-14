@@ -682,7 +682,7 @@ button:hover {
   }
 }
 .cardContainer {
-  transform: translateY(-80px);
+  transform: translateY(-150px);
 }
 @media (max-width: 768px) {
   .cardContainer {
