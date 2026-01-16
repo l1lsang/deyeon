@@ -416,7 +416,7 @@ useEffect(() => {
     <div className="f">  
       <div>
       <h5>광고ㆍ제작 통합 전략 문의</h5>
-      <button>알아보기</button>
+      <button onClick={()=>scrollToSection("신청고고")}>알아보기</button>
       </div>
       
         <img src={ii} className="ii"/>
@@ -447,7 +447,12 @@ useEffect(() => {
       <div className="sec7 hidden">
         <h1>차별화된 마케팅으로</h1>
         <h1>성장할 수 있습니다.</h1>
-        <button id="신청고고">광고문의 바로가기</button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWmZj84_fFBZqJwjulQJHpmaAdQ_Z-zmWvhnPOOup5pecAVQ/viewform?usp=publish-editor"
+   target="_blank"
+   rel="noopener noreferrer">
+  <button id="신청고고">광고문의 바로가기</button>
+</a>
+
       </div>
     </section>
     <footer>
